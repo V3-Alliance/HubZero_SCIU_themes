@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+ Copyright 2005-2009 by Purdue Research Foundation, West Lafayette, IN 47906.
+ All rights reserved.
+
+ This program is free software; you can redistribute it and/or
+ modify it under the terms of the GNU General Public License,
+ Version 2 as published by the Free Software Foundation.
+
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with this program; if not, write to the Free Software
+ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+-->
+
+<install type="template" version="1.5">
+	<name>sciu</name>
+	<author>HUBzero</author>
+	<copyright>Copyright 2005-2013 by Purdue Research Foundation, West Lafayette, IN 47906</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GPLv2</license>
+	<description>sciu</description>
+	<files>
+<filename>mobile.php</filename>
+<filename>images/overlay/closelabel.gif</filename>
+<filename>images/overlay/newwindowbox.png</filename>
+<filename>images/overlay/close.png</filename>
+<filename>images/overlay/refreshbox.png</filename>
+<filename>images/overlay/closebox.png</filename>
+<filename>images/overlay/nextlabel.gif</filename>
+<filename>images/overlay/fancybox.png</filename>
+<filename>images/overlay/prevlabel.gif</filename>
+<filename>images/overlay/resizebox.png</filename>
+<filename>images/layout/glass.png</filename>
+<filename>images/layout/tags.png</filename>
+<filename>images/layout/noise.png</filename>
+<filename>images/layout/search.png</filename>
+<filename>images/layout/stripes.png</filename>
+<filename>images/layout/noise-lite.png</filename>
+<filename>images/layout/footprint.png</filename>
+<filename>images/layout/noise-white.png</filename>
+<filename>images/layout/glass-stripes.png</filename>
+<filename>images/layout/light-stripes.png</filename>
+<filename>images/anim/circling-ball-loading.gif</filename>
+<filename>images/anim/circling-ball-black.gif</filename>
+<filename>images/anim/spinner.gif</filename>
+<filename>images/logos/creativecommons.gif</filename>
+<filename>images/logos/hubzero-logo-old.png</filename>
+<filename>images/logos/VU.jpg</filename>
+<filename>images/logos/yourhub.png</filename>
+<filename>images/logos/hub.png</filename>
+<filename>images/logos/closedsource.gif</filename>
+<filename>images/logos/hubzero-logo.png</filename>
+<filename>images/logos/SCIU.png</filename>
+<filename>images/logos/hubzero.png</filename>
+<filename>images/logos/opensource.gif</filename>
+<filename>images/splash/splash5.jpg</filename>
+<filename>images/splash/tile.jpg</filename>
+<filename>images/splash/splash3.jpg</filename>
+<filename>images/splash/splash1.jpg</filename>
+<filename>images/splash/splash2.jpg</filename>
+<filename>images/splash/splash6.jpg</filename>
+<filename>images/splash/splash4.jpg</filename>
+<filename>css/debug.css</filename>
+<filename>css/sciu.css</filename>
+<filename>css/upload.css</filename>
+<filename>css/download.css</filename>
+<filename>css/group.css</filename>
+<filename>css/print.css</filename>
+<filename>css/component.css</filename>
+<filename>css/main.css</filename>
+<filename>css/offline.css</filename>
+<filename>css/mobile.css</filename>
+<filename>css/fonts/Share-Regular-webfont.svg</filename>
+<filename>css/fonts/Share-Regular-webfont.ttf</filename>
+<filename>css/fonts/Share-Regular-webfont.eot</filename>
+<filename>css/fonts/Share-Regular-webfont.woff</filename>
+<filename>css/sciu-home.css</filename>
+<filename>css/error.css</filename>
+<filename>css/browser/ie7.css</filename>
+<filename>css/browser/ie9.css</filename>
+<filename>css/browser/ie8.css</filename>
+<filename>css/pages/community.css</filename>
+<filename>css/pages/home.css</filename>
+<filename>css/pages/discover.css</filename>
+<filename>css/pages/congrats.css</filename>
+<filename>group.php</filename>
+<filename>js/mootools/modal.js</filename>
+<filename>js/mootools/tooltips.js</filename>
+<filename>js/mootools/globals.js</filename>
+<filename>js/mootools/growl.js</filename>
+<filename>js/mobile.js</filename>
+<filename>js/hub.mootools.js</filename>
+<filename>js/hub.jquery.js</filename>
+<filename>less/site.less</filename>
+<filename>less/variables.less</filename>
+<filename>less/pagination.less</filename>
+<filename>html/com_projects/images/intro.png</filename>
+<filename>html/com_projects/projects.css</filename>
+<filename>html/plg_hubzero_autocompleter/autocompleter.css</filename>
+<filename>html/com_tags/tags.css</filename>
+<filename>html/com_courses/offering.css</filename>
+<filename>html/com_courses/course.css</filename>
+<filename>html/mod_reportproblems/mod_reportproblems.css</filename>
+<filename>html/com_resources/create.css</filename>
+<filename>html/com_resources/resources.css</filename>
+<filename>html/com_members/members.css</filename>
+<filename>html/com_support/support.css</filename>
+<filename>html/mod_breadcrumbs/default.php</filename>
+<filename>html/com_publications/images/intro.png</filename>
+<filename>html/com_publications/publications.css</filename>
+<filename>html/com_tools/upload.css</filename>
+<filename>html/com_tools/download.css</filename>
+<filename>html/plg_members_dashboard/dashboard.css</filename>
+<filename>html/com_groups/groups.css</filename>
+<filename>html/mod_search/default.php</filename>
+<filename>offline.php</filename>
+<filename>templateDetails.xml</filename>
+<filename>component.php</filename>
+<filename>error.php</filename>
+<filename>index.php</filename>
+<filename>template_thumbnail.png</filename>
+	</files>
+	<languages>
+		<language tag="en-GB">en-GB.tpl_sciu.ini</language>
+	</languages>
+	<administration>
+		<languages folder="admin">
+			<language tag="en-GB">en-GB.tpl_sciu.ini</language>
+		</languages>
+	</administration>
+	<positions>
+		<position>footer</position>
+		<position>banner</position>
+		<position>welcome</position>
+		<position>left</position>
+		<position>right</position>
+		<position>helppane</position>
+		<position>user3</position>
+		<position>introblock</position>
+		<position>notices</position>
+		<position>search</position>
+	</positions>
+	<params>
+	</params>
+</install>

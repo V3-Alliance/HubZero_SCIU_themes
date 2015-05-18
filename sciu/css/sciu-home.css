@@ -1,0 +1,122 @@
+#welcome h2 {
+	font-size: 38.4px;
+}
+
+#splash {
+	margin-top: -280px !important;
+}
+
+#wrap {
+	margin-top: 150px !important;
+}
+
+#wrap .contentpaneopen {
+	min-height:0px;
+}
+
+.photobannerContainer {
+	width: 100%;
+	height: 400px;
+	overflow: hidden;
+}
+
+.photobanner {
+	height: 400px;
+	width: 10000px;
+}
+
+.photobanner1 {
+	background: url("../images/splash/splash1.jpg") no-repeat right bottom;
+	width:1711px;
+}
+
+.photobanner2 {
+	background: url("../images/splash/splash2.jpg") no-repeat right bottom;
+	width:867px;
+}
+
+.photobanner3 {
+	background: url("../images/splash/splash3.jpg") no-repeat right bottom;
+	width:1386px;
+}
+
+.photobanner4 {
+	background: url("../images/splash/splash4.jpg") no-repeat right bottom;
+	width:1280px;
+}
+
+.photobanner5 {
+	background: url("../images/splash/splash5.jpg") no-repeat right bottom;
+	width:1280px;
+}
+
+.photobanner6 {
+	background: url("../images/splash/splash6.jpg") no-repeat right bottom;
+	width:1463px;
+}
+
+.photobanner div {
+	height: 400px;
+	text-align:left;
+	margin: 0;
+	margin-left: -4px;
+	padding: 0;
+	display:inline-block;
+	-webkit-transition: all 0s ease;
+	-moz-transition: all 0s ease;
+	-o-transition: all 0s ease;
+	-ms-transition: all 0s ease;
+	transition: all 0s ease;
+}
+
+.photobannerFirst {
+	-webkit-animation: bannermove 323s linear infinite;
+	-moz-animation: bannermove 323s linear infinite;
+	-ms-animation: bannermove 323s linear infinite;
+	animation: bannermove 323s linear infinite;
+}
+
+@keyframes "bannermove" {
+ 0% {
+    margin-left: 0px;
+ }
+ 100% {
+    margin-left: -7987px;
+ }
+}
+
+@-moz-keyframes bannermove {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -7987px;
+ }
+}
+
+@-webkit-keyframes "bannermove" {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -7987px;
+ }
+}
+
+@-ms-keyframes "bannermove" {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -7987px;
+ }
+}
+
+@-o-keyframes "bannermove" {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -7987px;
+ }
+}
