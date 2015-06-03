@@ -110,9 +110,6 @@ small.welcome-before, #welcome:before, small.welcome-after, #welcome:after {
 	margin-right: 100px;
 }
 
-#account-login {
-        display: none;
-}
 #account-register {
         display: none;
 }

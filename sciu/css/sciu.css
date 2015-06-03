@@ -85,9 +85,6 @@ small.welcome-before, #welcome:before, small.welcome-after, #welcome:after {
         background: url("../images/bannerLeft.png") no-repeat scroll 100% -18px #077dbc;
 }
 
-#account-login {
-	display: none;
-}
 #account-register {
 	display: none;
 }
