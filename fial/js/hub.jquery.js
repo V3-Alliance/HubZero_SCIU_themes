@@ -1,4 +1,4 @@
-/**
+d/**
  * @package     hubzero-cms
  * @file        templates/hubbasic/js/globals.js
  * @copyright   Copyright 2005-2011 Purdue University. All rights reserved.
@@ -103,7 +103,7 @@ HUB.Base = {
 					tip[0].innerHTML = '<span class="tooltip-title">' + parts[0] + '</span><span class="tooltip-text">' + parts[1] + '</span>';
 				}
 			}
-		}).dynamic();
+		});
 
 		// Init fixed position DOM: tooltips
 		$('.fixedToolTip').tooltip({
