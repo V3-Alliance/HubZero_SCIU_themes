@@ -135,9 +135,7 @@
         <filename>template_thumbnail.png</filename>
         <filename>templateDetails.xml</filename>
     </files>
-    <languages>
-        <!-- it appears that a bogus language -->
-        <!-- will freeload off of an existing template language-->
+    <languages folder="language">
         <language tag="en-GB">en-GB.tpl_fial.ini</language>
     </languages>
     <administration>
