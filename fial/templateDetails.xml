@@ -26,7 +26,6 @@
     <version>2.0</version>
     <description>FIAL basic green theme</description>
     <files>
-        <filename>component.php</filename>
         <filename>css/browser/ie7.css</filename>
         <filename>css/browser/ie8.css</filename>
         <filename>css/browser/ie9.css</filename>
@@ -36,9 +35,9 @@
         <filename>css/error.css</filename>
         <filename>css/fial-home.css</filename>
         <filename>css/fial.css</filename>
-        <filename>css/fonts/Share-Regular-webfont.eot</filename>
         <filename>css/fonts/Share-Regular-webfont.svg</filename>
         <filename>css/fonts/Share-Regular-webfont.ttf</filename>
+        <filename>css/fonts/Share-Regular-webfont.eot</filename>
         <filename>css/fonts/Share-Regular-webfont.woff</filename>
         <filename>css/group.css</filename>
         <filename>css/main.css</filename>
@@ -50,7 +49,6 @@
         <filename>css/pages/home.css</filename>
         <filename>css/print.css</filename>
         <filename>css/upload.css</filename>
-        <filename>error.php</filename>
         <filename>html/com_courses/course.css</filename>
         <filename>html/com_courses/offering.css</filename>
         <filename>html/com_groups/groups.css</filename>
@@ -86,6 +84,7 @@
         <filename>images/layout/search.png</filename>
         <filename>images/layout/stripes.png</filename>
         <filename>images/layout/tags.png</filename>
+        <filename>images/logos/yourhub.png</filename>
         <filename>images/logos/closedsource.gif</filename>
         <filename>images/logos/creativecommons.gif</filename>
         <filename>images/logos/FIAL-logo-inline-RGB.jpg</filename>
@@ -111,25 +110,27 @@
         <filename>images/overlay/prevlabel.gif</filename>
         <filename>images/overlay/refreshbox.png</filename>
         <filename>images/overlay/resizebox.png</filename>
+        <filename>images/splash/tile.jpg</filename>
         <filename>images/splash/splash1.jpg</filename>
         <filename>images/splash/splash2.jpg</filename>
         <filename>images/splash/splash3.jpg</filename>
         <filename>images/splash/splash4.jpg</filename>
         <filename>images/splash/splash5.jpg</filename>
         <filename>images/splash/splash6.jpg</filename>
-        <filename>images/splash/tile.jpg</filename>
-        <filename>index.php</filename>
         <filename>js/hub.jquery.js</filename>
         <filename>js/hub.mootools.js</filename>
         <filename>js/mfblank.js</filename>
         <filename>js/mobile.js</filename>
-        <filename>js/mootools/globals.js</filename>
-        <filename>js/mootools/growl.js</filename>
         <filename>js/mootools/modal.js</filename>
         <filename>js/mootools/tooltips.js</filename>
+        <filename>js/mootools/globals.js</filename>
+        <filename>js/mootools/growl.js</filename>
         <filename>less/pagination.less</filename>
         <filename>less/site.less</filename>
         <filename>less/variables.less</filename>
+        <filename>component.php</filename>
+        <filename>error.php</filename>
+        <filename>index.php</filename>
         <filename>mobile.php</filename>
         <filename>offline.php</filename>
         <filename>template_thumbnail.png</filename>
