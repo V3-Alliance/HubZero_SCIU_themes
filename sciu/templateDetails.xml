@@ -125,6 +125,8 @@
         <filename>template_thumbnail.png</filename>
     </files>
     <languages>
+        <!-- will freeload off of an existing template language-->
+        <language tag="en-GB">en-GB.tpl_hubbasic2013.ini</language>
     </languages>
     <administration>
     </administration>
