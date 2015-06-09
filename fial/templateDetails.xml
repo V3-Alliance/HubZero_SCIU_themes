@@ -134,16 +134,10 @@
         <filename>offline.php</filename>
         <filename>template_thumbnail.png</filename>
         <filename>templateDetails.xml</filename>
-
-
     </files>
     <languages>
-        <language tag="en-GB">en-GB.tpl_fial.ini</language>
     </languages>
     <administration>
-        <languages folder="admin">
-            <language tag="en-GB">en-GB.tpl_fial.ini</language>
-        </languages>
     </administration>
     <positions>
         <position>footer</position>
