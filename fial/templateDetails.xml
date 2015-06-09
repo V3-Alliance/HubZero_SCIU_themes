@@ -135,8 +135,8 @@
         <filename>template_thumbnail.png</filename>
         <filename>templateDetails.xml</filename>
     </files>
-    <languages folder="language">
-        <language tag="en-GB">en-GB.tpl_fial.ini</language>
+    <languages>
+        <language tag="en-GB">language/en-GB.tpl_fial.ini</language>
     </languages>
     <administration>
     </administration>
