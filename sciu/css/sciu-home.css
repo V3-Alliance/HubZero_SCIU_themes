@@ -1,5 +1,5 @@
 #welcome h2 {
-	font-size: 38.4px;
+	font-size: 38px;
 }
 
 #splash {
@@ -11,7 +11,7 @@
 }
 
 #wrap .contentpaneopen {
-	min-height:0px;
+	min-height:0;
 }
 
 .photobannerContainer {
@@ -58,8 +58,7 @@
 .photobanner div {
 	height: 400px;
 	text-align:left;
-	margin: 0;
-	margin-left: -4px;
+	margin: 0 0 0 -4px;
 	padding: 0;
 	display:inline-block;
 	-webkit-transition: all 0s ease;
@@ -76,9 +75,9 @@
 	animation: bannermove 323s linear infinite;
 }
 
-@keyframes "bannermove" {
+@keyframes bannermove {
  0% {
-    margin-left: 0px;
+    margin-left: 0;
  }
  100% {
     margin-left: -7987px;
@@ -87,34 +86,34 @@
 
 @-moz-keyframes bannermove {
  0% {
-   margin-left: 0px;
+   margin-left: 0;
  }
  100% {
    margin-left: -7987px;
  }
 }
 
-@-webkit-keyframes "bannermove" {
+@-webkit-keyframes bannermove {
  0% {
-   margin-left: 0px;
+   margin-left: 0;
  }
  100% {
    margin-left: -7987px;
  }
 }
 
-@-ms-keyframes "bannermove" {
+@-ms-keyframes bannermove {
  0% {
-   margin-left: 0px;
+   margin-left: 0;
  }
  100% {
    margin-left: -7987px;
  }
 }
 
-@-o-keyframes "bannermove" {
+@-o-keyframes bannermove {
  0% {
-   margin-left: 0px;
+   margin-left: 0;
  }
  100% {
    margin-left: -7987px;

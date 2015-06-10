@@ -47,9 +47,8 @@
 
 #SCIU h1 {
 	border-right: none;
-	text-transform: none;
 	padding: 0;
-	font-size: 38.4px;
+	font-size: 38px;
 	color: #000000;
 	text-transform: uppercase;
 }
@@ -68,7 +67,6 @@ small.welcome-before, #welcome:before, small.welcome-after, #welcome:after {
 .com_content .contentpaneopen {
 	padding: 35px 100px;
 }
-
 
 .com_content .content-header h2 {
 	color: #fff;
@@ -92,8 +90,7 @@ small.welcome-before, #welcome:before, small.welcome-after, #welcome:after {
 #gov_logo {
 	float: left;
 	display: table-column;
-	background-image: url('../images/logos/Supported_AustGovt_stacked_RGB.png');
-	background-repeat: no-repeat;
+	background: url('../images/logos/Supported_AustGovt_stacked_RGB.png') no-repeat;
 	background-size: 123px 84px;
 	width: 123px;
 	height: 84px;
@@ -102,8 +99,7 @@ small.welcome-before, #welcome:before, small.welcome-after, #welcome:after {
 #linkedin_logo {
 	float: right;
 	display: table-column;
-	background-image: url('../images/logos/footer-right-linkedin.png');
-	background-repeat: no-repeat;
+	background: url('../images/logos/footer-right-linkedin.png') no-repeat;
 	background-size: 178px 84px;
 	width: 178px;
 	height: 84px;
